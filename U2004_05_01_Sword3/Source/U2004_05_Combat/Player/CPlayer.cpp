@@ -135,10 +135,10 @@ void ACPlayer::LastAttackEffect(ACharacter * Damager)
 {
 	ACCombo* combo = Cast<ACCombo>(CurrWeapon);
 	CheckFalse(combo->GetLastCombo());
-
+	
 	if (LightningParticle == NULL)
 		CContentFinder::GetAssetDynamic<UParticleSystem>(&LightningParticle, "ParticleSystem'/Game/Effects/P_Genno_Weapon_Lightning_01.P_Genno_Weapon_Lightning_01'");
-
+	//UGameplayStatics::SpawnEmitterAtLocation()
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), LightningParticle, Damager->GetActorLocation());
 
 	combo->SetLastCombo(false);

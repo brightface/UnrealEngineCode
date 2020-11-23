@@ -1,0 +1,5 @@
+E:\ICanMakeIt\Code\UnrealEngineC\U2004_05_01_Sword3\Intermediate\Build\Win64\UE4Editor\Development\U2004_05_Combat\Definitions.U2004_05_Combat.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\ICanMakeIt\Code\UnrealEngineC\U2004_05_01_Sword3\Source\U2004_05_Combat/Interfaces/IWeapon.h
+e:\icanmakeit\code\unrealenginec\u2004_05_01_sword3\intermediate\build\win64\ue4editor\inc\u2004_05_combat\IWeapon.generated.h

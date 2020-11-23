@@ -11,7 +11,7 @@ ACEnemy::ACEnemy()
 {
 	HealthBar = CreateDefaultSubobject<UWidgetComponent>("HealthBar");
 	HealthBar->SetupAttachment(GetMesh());
-
+	
 
 	USkeletalMesh* characterMesh;
 	CContentFinder::GetAsset<USkeletalMesh>(&characterMesh, "SkeletalMesh'/Game/Character/Mesh/SK_Mannequin.SK_Mannequin'");
@@ -23,9 +23,11 @@ ACEnemy::ACEnemy()
 	CContentFinder::GetAsset<UMaterialInstance>(&LogoMaterialInstance, "MaterialInstanceConstant'/Game/Character/Materials/M_UE4Man_ChestLogo_Enemy.M_UE4Man_ChestLogo_Enemy'");
 
 	CContentFinder::GetClass<UCUserWidget_HealthBar>(&HealthBarClass, "WidgetBlueprint'/Game/UserInterfaces/WB_CHealthBar.WB_CHealthBar_C'");
+	//위치조정
 	HealthBar->RelativeLocation = FVector(0, 0, 190);
 	HealthBar->SetWidgetClass(HealthBarClass);
 	HealthBar->SetWidgetSpace(EWidgetSpace::Screen);
+	//사이즈
 	HealthBar->SetDrawSize(FVector2D(120, 15));
 }
 

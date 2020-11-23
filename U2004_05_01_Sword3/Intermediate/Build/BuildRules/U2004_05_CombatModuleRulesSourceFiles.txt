@@ -1,0 +1,3 @@
+E:\ICanMakeIt\Code\UnrealEngineC\U2004_05_01_Sword3\Source\U2004_05_Combat\U2004_05_Combat.Build.cs
+E:\ICanMakeIt\Code\UnrealEngineC\U2004_05_01_Sword3\Source\U2004_05_Combat.Target.cs
+E:\ICanMakeIt\Code\UnrealEngineC\U2004_05_01_Sword3\Source\U2004_05_CombatEditor.Target.cs
