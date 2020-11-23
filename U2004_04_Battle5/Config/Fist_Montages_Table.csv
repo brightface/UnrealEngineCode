@@ -1,0 +1,4 @@
+,Action,Montage,PlayRatio
+LightAttack,1,/Game/Character/Montages/Fist/UC_Attack01_Montage,1
+LightAttack2,1,/Game/Character/Montages/Fist/UC_Attack02_Montage,1
+HeavyAttack,2,/Game/Character/Montages/Fist/UC_HeavyAttack_Montage,1
